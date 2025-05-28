@@ -1,0 +1,22 @@
+[project]
+name = "cryptocrush"
+version = "0.1.0"
+description = "A humble repository for everything related to cryptography, I'll update it as I go"
+authors = [
+    {name = "cryoxero",email = "cryoxero@proton.me"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.115.12,<0.116.0)",
+    "django (>=5.2.1,<6.0.0)",
+    "uvicorn (>=0.34.2,<0.35.0)"
+]
+
+[tool.poetry]
+packages = [{include = "cryptocrush", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
