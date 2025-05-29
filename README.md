@@ -8,12 +8,12 @@ Built with django as the base and fastapi for api stuff
 
 ## Run
 ```bash
-$ poetry install
+poetry install
 ```
 
 ```bash
-$ source "`poetry env info --path`/bin/activate"
+source "`poetry env info --path`/bin/activate"
 ```
 ```bash
-$ poetry run python src/runserver.py
+poetry run python src/runserver.py
 ```

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cryptocrush - Learn Cryptography & Ciphers</title>
+  <style>
+    /* Reset and base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #0b1a3d; /* dark blue */
+      color: #e0e7ff; /* light text */
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    header {
+      max-width: 700px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #83aaff;
+      margin-bottom: 0.25em;
+      letter-spacing: 2px;
+    }
+
+    .slogan {
+      font-size: 1.25rem;
+      color: #a3bffa;
+      margin-bottom: 1.5em;
+      font-weight: 600;
+      font-style: italic;
+    }
+
+    p.description {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #d1d9ff;
+      margin-bottom: 2em;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cta-button {
+      background: #3b5998; /* a rich blue */
+      color: #e0e7ff;
+      font-weight: 700;
+      padding: 15px 40px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 40px;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(59, 89, 152, 0.5);
+      transition: background 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .cta-button:hover {
+      background: #5a79c1;
+      box-shadow: 0 6px 20px rgba(90, 121, 193, 0.7);
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #667db6;
+    }
+
+    footer a {
+      color: #83aaff;
+      text-decoration: underline;
+      margin-top: 8px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cryptocrush</h1>
+    <div class="slogan">Crack the Code. Master the Secrets.</div>
+    <p class="description">
+      Welcome to Cryptocrush, your gateway to the fascinating world of cryptography and ciphers. Whether you're a beginner or a seasoned codebreaker, explore interactive lessons, historical insights, and hands-on challenges to unlock the secrets behind secure communication. Dive in and start crushing codes today!
+    </p>
+    <a href="#get-started" class="cta-button">Get Started</a>
+  </header>
+
+  <footer>
+    &copy; 2025 Cryptocrush. All rights reserved.  
+    <br />
+    <a href="https://github.com/cryoxero/cryptocrush" target="_blank" rel="noopener">View on GitHub</a>
+  </footer>
+
+</body>
+</html>
+
