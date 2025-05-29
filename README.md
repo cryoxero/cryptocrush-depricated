@@ -7,8 +7,13 @@ It's a server structure OF COURSE
 Built with django as the base and fastapi for api stuff
 
 ## Run
-
+```bash
 $ poetry install
-$ poetry shell
-$ poetry run python src/runserver.py
+```
 
+```bash
+$ poetry "`env info --path`/bin/activate"
+```
+```bash
+$ poetry run python src/runserver.py
+```
