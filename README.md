@@ -12,7 +12,7 @@ $ poetry install
 ```
 
 ```bash
-$ poetry "`env info --path`/bin/activate"
+$ source "`poetry env info --path`/bin/activate"
 ```
 ```bash
 $ poetry run python src/runserver.py
